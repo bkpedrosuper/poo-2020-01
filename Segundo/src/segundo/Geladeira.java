@@ -22,6 +22,7 @@ public class Geladeira {
     }
     
     void imprimirElementos(){
+        System.out.println("Os elementos do(a) " + Geladeira.class.getSimpleName() + " são:");
         congelador.imprimirElementos();
         refrigerador.imprimirElementos();
     }
