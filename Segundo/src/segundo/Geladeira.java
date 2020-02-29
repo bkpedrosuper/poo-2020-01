@@ -21,6 +21,11 @@ public class Geladeira {
         
     }
     
+    void imprimirElementos(){
+        congelador.imprimirElementos();
+        refrigerador.imprimirElementos();
+    }
+    
     
     
 }

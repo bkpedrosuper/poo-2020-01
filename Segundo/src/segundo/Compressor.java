@@ -9,10 +9,10 @@ package segundo;
  *
  * @author udesc
  */
-class Ventilador {
+public class Compressor {
 
     void imprimirNome() {
-        System.out.println(Ventilador.class.getSimpleName());
+        System.out.println(Compressor.class.getSimpleName());
     }
     
 }
