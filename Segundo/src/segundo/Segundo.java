@@ -18,7 +18,7 @@ public class Segundo {
         Geladeira minhaGeladeira = new Geladeira();
         
         //minhaGeladeira.congelador = new Congelador();
-        minhaGeladeira.imprimirElementos();
+        minhaGeladeira.imprimirElementos();  
     }
     
 }
