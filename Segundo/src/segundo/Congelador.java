@@ -11,4 +11,14 @@ package segundo;
  */
 class Congelador {
     private Ventilador ventilador = new Ventilador();
+    private Sensor sensor = new Sensor();
+    private Compressor compressor = new Compressor();
+    
+    public void imprimirElementos(){
+        System.out.println("Eu sou o " + Congelador.class.getSimpleName() + " e contenho os itens:");
+
+        ventilador.imprimirNome();
+        sensor.imprimirNome();
+        compressor.imprimirNome();
+    }
 }
