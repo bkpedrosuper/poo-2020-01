@@ -11,8 +11,13 @@ package segundo;
  */
 public class Sensor {
 
-    public void imprimirNome() {
-        System.out.println(Sensor.class.getSimpleName());
+    public void imprimirNome(float atual,float padrao) {
+        if(atual>padrao){
+            System.out.println(Sensor.class.getSimpleName() + " está ligado");
+        }
+        else{
+            System.out.println(Sensor.class.getSimpleName() + " está desligado");
+        }
     }
     
 }

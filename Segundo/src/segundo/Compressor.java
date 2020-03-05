@@ -11,8 +11,13 @@ package segundo;
  */
 public class Compressor {
 
-    void imprimirNome() {
-        System.out.println(Compressor.class.getSimpleName());
+    void imprimirNome(float atual,float padrao) {
+        if(atual>padrao){
+            System.out.println(Compressor.class.getSimpleName() + " está ligado");
+        }
+        else{
+            System.out.println(Compressor.class.getSimpleName() + " está desligado");
+        }
     }
     
 }
