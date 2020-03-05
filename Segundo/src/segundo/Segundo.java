@@ -17,8 +17,10 @@ public class Segundo {
     public static void main(String[] args) {
         Geladeira minhaGeladeira = new Geladeira();
         
+        
+        minhaGeladeira.askInfo();
         //minhaGeladeira.congelador = new Congelador();
         minhaGeladeira.imprimirElementos();
-    }
+    }   
     
 }

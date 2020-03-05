@@ -10,12 +10,13 @@ package segundo;
  * @author udesc
  */
 class Refrigerador {
+
     private Ventilador ventilador = new Ventilador();
     private Sensor sensor = new Sensor();
     
-    public void imprimirElementos(){
+    public void imprimirElementos(float atual,float padrao){
         System.out.println("Eu sou o " + Refrigerador.class.getSimpleName() + " e contenho os itens:");
-        ventilador.imprimirNome();
-        sensor.imprimirNome();
+        ventilador.imprimirNome(atual,padrao);
+        sensor.imprimirNome(atual,padrao);
     }
 }

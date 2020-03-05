@@ -11,8 +11,14 @@ package segundo;
  */
 class Ventilador {
 
-    void imprimirNome() {
-        System.out.println(Ventilador.class.getSimpleName());
+    void imprimirNome(float atual,float padrao) {
+        if(atual>padrao){
+            System.out.println(Ventilador.class.getSimpleName() + " está ligado");
+        }
+        else{
+            System.out.println(Ventilador.class.getSimpleName() + " está desligado");
+        }
+        
     }
     
 }
