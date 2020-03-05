@@ -18,6 +18,5 @@ public class Compressor {
         else{
             System.out.println(Compressor.class.getSimpleName() + " está desligado");
         }
-    }
     
 }

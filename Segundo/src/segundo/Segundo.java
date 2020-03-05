@@ -21,6 +21,6 @@ public class Segundo {
         minhaGeladeira.askInfo();
         //minhaGeladeira.congelador = new Congelador();
         minhaGeladeira.imprimirElementos();
-    }
+    }   
     
 }

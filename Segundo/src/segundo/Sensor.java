@@ -18,6 +18,7 @@ public class Sensor {
         else{
             System.out.println(Sensor.class.getSimpleName() + " está desligado");
         }
+
     }
     
 }

@@ -9,6 +9,7 @@ package segundo;
  *
  * @author udesc
  */
+
 class Congelador {
     private Ventilador ventilador = new Ventilador();
     private Sensor sensor = new Sensor();
@@ -20,5 +21,6 @@ class Congelador {
         ventilador.imprimirNome(atual,padrao);
         sensor.imprimirNome(atual,padrao);
         compressor.imprimirNome(atual,padrao);
+
     }
 }

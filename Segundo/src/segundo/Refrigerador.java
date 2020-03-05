@@ -10,6 +10,7 @@ package segundo;
  * @author udesc
  */
 class Refrigerador {
+
     private Ventilador ventilador = new Ventilador();
     private Sensor sensor = new Sensor();
     
